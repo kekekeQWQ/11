@@ -1,0 +1,24 @@
+哈夫曼树已经建好，哈夫曼编码已经完成，输出如下：
+哈夫曼树：
+id:0  weight:5.0   parent:7  lchild:-1 rchild:-1
+id:1  weight:5.0   parent:7  lchild:-1 rchild:-1
+id:2  weight:10.0   parent:8  lchild:-1 rchild:-1
+id:3  weight:10.0   parent:8  lchild:-1 rchild:-1
+id:4  weight:10.0   parent:9  lchild:-1 rchild:-1
+id:5  weight:15.0   parent:10  lchild:-1 rchild:-1
+id:6  weight:20.0   parent:10  lchild:-1 rchild:-1
+id:7  weight:10.0   parent:9  lchild:0 rchild:1
+id:8  weight:20.0   parent:11  lchild:2 rchild:3
+id:9  weight:20.0   parent:11  lchild:4 rchild:7
+id:10  weight:35.0   parent:12  lchild:5 rchild:6
+id:11  weight:40.0   parent:12  lchild:8 rchild:9
+id:12  weight:75.0   parent:-1  lchild:10 rchild:11
+哈夫曼编码：
+id:0   ch:a  code:1110
+id:1   ch:   code:1111
+id:2   ch:b  code:100
+id:3   ch:   code:101
+id:4   ch:c  code:110
+id:5   ch:   code:00
+id:6   ch:d  code:01
+平均码长为：200.00
